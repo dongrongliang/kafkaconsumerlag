@@ -1,1 +1,3 @@
 # kafkaconsumerlag
+
+收集指定topic在指定的consumer group 里消费的情况，统计每个partition的lag 通过producer 写入kafka,然后通过consumer写入es,然后可以在最前端接入grafana,然后做图表统计当前topic的落后情况。
